@@ -55,6 +55,8 @@ for doc_content in doc_content_list:
     doc_word = []
     # print(words)
     for word in words:
+        if dataset == 'mr':
+            doc_word.append(word)
         if word not in stopwords and word_freq[word] >= 5:
             doc_word.append(word)   
     #### ????
