@@ -6,6 +6,8 @@ import re
 import itertools
 import sys
 
+# sys.path.append('../')    
+
 # datasets = ['20ng', 'R8', 'R52', 'ohsumed', 'mr']
 # dataset = sys.args[1]
 dataset = 'mr'
